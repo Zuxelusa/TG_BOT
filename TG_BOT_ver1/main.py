@@ -6,11 +6,11 @@ from t_bot_handlers.handlers import *
 
 TOKEN = get_telegram_token()
 
-# Enable logging
-logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
-)
-logger = logging.getLogger(__name__)
+# # Enable logging
+# logging.basicConfig(
+#     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+# )
+# logger = logging.getLogger(__name__)
 
 def main() -> None:
     """Start the bot."""
