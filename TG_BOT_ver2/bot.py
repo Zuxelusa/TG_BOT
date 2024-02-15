@@ -6,7 +6,6 @@ from cbr_data import get_data_from_cbr
 films=[]
 API_URL='https://7038.deeppavlov.ai/model'
 API_URL_Cat='https://7035.deeppavlov.ai/model'
-API_URL_Ya='https://yandex.ru/search/?text='
 
 TOKEN = get_token.get_telegram_token()
 
